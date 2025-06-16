@@ -13,3 +13,5 @@ def load_model():
     model = MobileNetV2(weights="imagenet")
     return model
 
+def preprocess_image(image):
+    
