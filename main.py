@@ -6,3 +6,4 @@ from tensorflow.keras.applications.mobilenet_v2 import (
     preprocess_input,
     decode_predictions
 )
+from PIL import Image
