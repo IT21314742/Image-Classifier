@@ -22,4 +22,4 @@ def preprocess_image(image):
 
 def classify_image(model, image):
     try:
-        
+        preprocess_image = preprocess_image(image)
