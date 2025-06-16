@@ -1,2 +1,2 @@
 def main():
-    print("Hello from image-classi
+    print("Hello from image
