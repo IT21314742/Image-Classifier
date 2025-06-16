@@ -12,3 +12,4 @@ from PIL import Image
 def load_model():
     model = MobileNetV2(weights="imagenet")
     return model
+
