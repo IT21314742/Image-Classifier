@@ -29,3 +29,4 @@ def classify_image(model, image):
     except Exception as e:
         st.error(f"Error Classifying image: {str(e)}")
         return None
+    
