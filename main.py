@@ -31,4 +31,4 @@ def classify_image(model, image):
         return None
     
 def main():
-    st.set_page_config
+    st.set_page_config(page_title=)
