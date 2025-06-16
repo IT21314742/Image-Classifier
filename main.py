@@ -27,4 +27,4 @@ def classify_image(model, image):
         decode_predictions = decode_predictions(predictions, top=3)[0]
         return decode_predictions
     except Exception as e:
-        st.error()
+        st.error(f"")
