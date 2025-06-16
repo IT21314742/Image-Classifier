@@ -2,4 +2,4 @@ def main():
     print("Hello from image-classifier!")
 
 
-if __name__ == "__
+if __name
