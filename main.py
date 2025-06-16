@@ -14,4 +14,5 @@ def load_model():
     return model
 
 def preprocess_image(image):
+    img = np.array(image)
     
