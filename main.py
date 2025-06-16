@@ -17,4 +17,3 @@ def preprocess_image(image):
     img = np.array(image)
     img = cv2.resize(img, (224, 224))
     img = preprocess_input(img)
-    
