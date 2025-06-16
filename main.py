@@ -30,4 +30,3 @@ def classify_image(model, image):
         st.error(f"Error Classifying image: {str(e)}")
         return None
     
-    
