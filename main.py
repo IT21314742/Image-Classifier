@@ -19,3 +19,4 @@ def preprocess_image(image):
     img = preprocess_input(img)
     img = np.expand_dims(img, axis=0)
     return img
+
