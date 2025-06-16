@@ -24,4 +24,4 @@ def classify_image(model, image):
     try:
         preprocess_image = preprocess_image(image)
         predictions = model.predict(preprocess_image)
-        
+        decode_predictions = decode_predictions(predictions, top=3)[0]
