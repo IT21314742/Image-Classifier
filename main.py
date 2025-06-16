@@ -20,3 +20,4 @@ def preprocess_image(image):
     img = np.expand_dims(img, axis=0)
     return img
 
+def classify_image(model, image)
