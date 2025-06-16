@@ -28,3 +28,4 @@ def classify_image(model, image):
         return decode_predictions
     except Exception as e:
         st.error(f"Error Classifying image: {str(e)}")
+        return
