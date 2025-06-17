@@ -34,4 +34,3 @@ def main():
     st.set_page_config(page_title="AI Image Classifier", page_icon="🖼", layout="centered")
     
 
-    
