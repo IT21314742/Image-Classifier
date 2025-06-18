@@ -60,7 +60,7 @@ def main():
                     for _, label, score in predictions:
                         st.write(f"**{label}**{score:.2%}")
 
-
+if __name__
 
 
 
