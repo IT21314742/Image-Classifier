@@ -49,6 +49,8 @@ def main():
         uploaded_file, caption= "Uploaded Image", use_container_width=True
     )
         btn = st.button("Classify Image")
+        
+        
 
 
 
