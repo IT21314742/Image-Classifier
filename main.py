@@ -51,7 +51,7 @@ def main():
         btn = st.button("Classify Image")
         
         if btn:
-            with st.spinner
+            with st.spinner("Analyzing Image...")
 
 
 
