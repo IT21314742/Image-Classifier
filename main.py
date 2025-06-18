@@ -58,7 +58,7 @@ def main():
                 if predictions:
                     st.subheader("predictions")
                     for _, label, score in predictions:
-                        st.write
+                        st.write()
 
 
 
