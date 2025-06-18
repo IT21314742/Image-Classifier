@@ -51,7 +51,8 @@ def main():
         btn = st.button("Classify Image")
         
         if btn:
-            with st.spinner("Analyzing Image...")
+            with st.spinner("Analyzing Image..."):
+                image = Image.open(uploaded_file)
 
 
 
