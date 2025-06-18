@@ -37,7 +37,8 @@ def main():
     st.write("Upload an image and let AI tell you what is in it!")
     
     @st.cache_resource
-    def load_cached_model()
+    def load_cached_model():
+        return load_model()
 
 
 
