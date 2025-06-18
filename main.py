@@ -42,7 +42,7 @@ def main():
     
     model = load_cached_model()
     
-    uploaded_file = st.file_uploader()
+    uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
     
 
 
