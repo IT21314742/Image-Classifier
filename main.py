@@ -54,6 +54,7 @@ def main():
             with st.spinner("Analyzing Image..."):
                 image = Image.open(uploaded_file)
                 predictions = classify_image(image)
+                
 
 
 
