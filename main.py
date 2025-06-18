@@ -59,7 +59,7 @@ def main():
                     st.subheader("predictions")
                     for _, label, score in predictions:
                         st.write(f"**{label}**{score:.2%}")
-        
+    
 
 
 
