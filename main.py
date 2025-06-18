@@ -46,7 +46,7 @@ def main():
     
     if uploaded_file is not None:
         Image = st.image(
-        uploaded_file
+        uploaded_file, caption= "Uploaded Image", use_container_width=True
     )
 
 
