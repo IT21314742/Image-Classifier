@@ -55,7 +55,7 @@ def main():
                 image = Image.open(uploaded_file)
                 predictions = classify_image(image)
                 
-                
+                if predictions
 
 
 
