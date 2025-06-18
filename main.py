@@ -36,7 +36,7 @@ def main():
     st.title("AI Image Classifier")
     st.write("Upload an image and let AI tell you what is in it!")
     
-    
+    @st.cache_resource
 
 
 
