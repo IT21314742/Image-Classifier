@@ -53,6 +53,7 @@ def main():
         if btn:
             with st.spinner("Analyzing Image..."):
                 image = Image.open(uploaded_file)
+                
 
 
 
