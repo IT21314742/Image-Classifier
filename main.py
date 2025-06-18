@@ -46,6 +46,7 @@ def main():
     
     if uploaded_file is not None:
         Image = st.image()
+        uploaded_file
     
 
 
