@@ -34,6 +34,7 @@ def main():
     st.set_page_config(page_title="AI Image Classifier", page_icon="🖼", layout="centered")
     
     st.title("AI Image Classifier")
+    st.write("Upload an image and let AI tell you what is in it")
 
 
 
