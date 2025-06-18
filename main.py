@@ -40,7 +40,7 @@ def main():
     def load_cached_model():
         return load_model()
     
-    
+    model = load_cached_model()
     
 
 
