@@ -45,6 +45,7 @@ def main():
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
     
     if uploaded_file is not None:
+        Image = st.image()
     
 
 
